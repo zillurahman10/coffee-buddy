@@ -1,0 +1,57 @@
+[
+    {
+      "name": "John Smith",
+      "email": "john@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1505765050514-6c4d3e1f8d68?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "I love this website! It has a vast collection of coffee recipes and brewing techniques. Highly recommended!"
+    },
+    {
+      "name": "Emily Brown",
+      "email": "emily@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1576079267757-8f5c3cbf5f0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "As a coffee enthusiast, I find this website extremely informative. The articles are well-researched and the photos are stunning."
+    },
+    {
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "This is my go-to platform for everything related to coffee. It's a treasure trove of knowledge for both beginners and experts."
+    },
+    {
+      "name": "Michael Lee",
+      "email": "michael@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1565299620369-3e7851aaebf6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "I stumbled upon this website recently, and I'm amazed at the depth of content it offers. Truly a coffee lover's paradise!"
+    },
+    {
+      "name": "Emma Davis",
+      "email": "emma@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1517821099601-1a3011fb4696?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "I've been following this website for a while now, and it never disappoints. The articles are well-written and the visuals are captivating."
+    },
+    {
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1565299514-417c8ff197b0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "This website has broadened my understanding of different coffee brewing methods. It's a must-visit for all coffee enthusiasts!"
+    },
+    {
+      "name": "Olivia Taylor",
+      "email": "olivia@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1506771334-d6a036665d02?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "The coffee knowledge shared on this website is exceptional. I've learned so much about the origins, flavors, and brewing techniques."
+    },
+    {
+      "name": "Daniel Miller",
+      "email": "daniel@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1541542719642-44e9dca706d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "I'm grateful for this website as it helped me elevate my home brewing skills. The detailed guides and tips are invaluable."
+    },
+    {
+      "name": "Sophia Anderson",
+      "email": "sophia@example.com",
+      "photoUrl": "https://images.unsplash.com/photo-1543364196-4d36fdb2a75a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "review": "This website is my daily dose of coffee inspiration. It's a fantastic resource for exploring new coffee flavors and techniques."
+    }
+  ]
+  
