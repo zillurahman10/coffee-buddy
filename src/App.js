@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home';
 import Login from './Pages/LogIn/LogIn';
 import Coffees from './Pages/Coffees/Coffees';
 import Header from './Shared/Header';
+import Footer from './Shared/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/coffees' element={<Coffees></Coffees>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

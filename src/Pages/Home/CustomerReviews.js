@@ -1,6 +1,24 @@
-{
-    "name": "Md. Zillur Rahman",
-        "email": "ejeyd@example.com",
-            "photoUrl": "https://images.unsplash.com/photo-1533973427779-4b8c2eb4c3cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29uJTIwcGhvdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-                "review" : "This is a great website where people can learn about coffees. I've learnt many things about coffee 😊"
+import React, { useEffect, useState } from 'react';
+import CustomerReviewCard from './CustomerReviewCard';
+
+function CustomerReviews() {
+    const [reviews, setReviews] = useState([])
+
+    useEffect(() => {
+        fetch('reviews.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
+    return (
+        <>
+            <h1 className='text-2xl text-center m-12'>Customers Reviews</h1>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2 ml-12'>
+                {
+                    reviews.slice(0, 2).map(review => <CustomerReviewCard review={review} ></CustomerReviewCard>)
+                }
+            </div>
+        </>
+    );
 }
+
+export default CustomerReviews;

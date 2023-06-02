@@ -21,7 +21,9 @@ function Header() {
                             {menuItems}
                         </ul>
                     </div>
-                    <img src={logo} style={{ width: '50px', marginLeft: "10px" }} alt=""></img>
+                    <Link to="/">
+                        <img src={logo} style={{ width: '50px', marginLeft: "10px" }} alt=""></img>
+                    </Link>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
