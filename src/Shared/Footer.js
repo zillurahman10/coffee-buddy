@@ -5,8 +5,7 @@ function Footer() {
         <div className='mt-24'>
             <footer class="footer p-10 bg-neutral text-neutral-content">
                 <div>
-                    img
-                    <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
+                    <p>Coffee Buddy<br />All rights reserved</p>
                 </div>
                 <div>
                     <span class="footer-title">Social</span>
