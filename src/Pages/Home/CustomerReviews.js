@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CustomerReviewCard from './CustomerReviewCard';
+import { Link } from 'react-router-dom';
 
 function CustomerReviews() {
     const [reviews, setReviews] = useState([])
@@ -16,6 +17,9 @@ function CustomerReviews() {
                 {
                     reviews.slice(0, 2).map(review => <CustomerReviewCard review={review} ></CustomerReviewCard>)
                 }
+            </div>
+            <div className='flex justify-center mt-12'>
+                <Link to="/reviews" className='btn btn-primary btn-outline w-52 mx-auto'>See more</Link>
             </div>
         </>
     );

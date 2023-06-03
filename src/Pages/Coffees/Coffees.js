@@ -4,8 +4,9 @@ import Coffee from './Coffee';
 function Coffees() {
     const [coffees, setCoffees] = useState([])
 
+    const url = "http://localhost:5000/coffees"
     useEffect(() => {
-        fetch('coffee.json')
+        fetch(url)
             .then(res => res.json())
             .then(data => setCoffees(data))
 
