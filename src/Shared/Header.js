@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     const menuItems = <>
-        <li><a>Recipies</a></li>
+        <li><Link to='blogs'>Blogs</Link></li>
         <li><Link to="coffees">Coffees</Link></li>
     </>
 
@@ -28,7 +28,6 @@ function Header() {
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {menuItems}
-                        <Link to="login" className='btn btn-primary btn-tiny ml-5'>Join us</Link>
                     </ul>
                 </div>
             </div>

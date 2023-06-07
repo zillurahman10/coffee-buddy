@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Coffee({ coffee }) {
     return (
@@ -11,10 +12,12 @@ function Coffee({ coffee }) {
                     <h2 className="card-title">{coffee.name}</h2>
                     <p>{coffee.shortDescription}</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Details</button>
+                        <Link className='btn btn-primary' to={`/coffees/${coffee?._id}`}>Details</Link>
                     </div>
                 </div>
             </div>
+
+
         </div>
     );
 }
